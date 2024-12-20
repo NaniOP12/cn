@@ -18,4 +18,4 @@ class Mesh(Topo):
 				self.addLink(hosts[i],hosts[j])
 topos = {'mesh':Mesh}
 
-#sudo mn --custom mini_net.py --top0 mesh --controller none
+#sudo mn --custom mini_net.py --top mesh --controller none
